@@ -1,8 +1,6 @@
-// Tela1.js
-
 import React, { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, Alert } from 'react-native';
-import { LinearGradient } from 'expo-linear-gradient'; // Importe LinearGradient
+import { LinearGradient } from 'expo-linear-gradient'; 
 import Tela1Styles from './Tela1Styles';
 import { useNavigation } from '@react-navigation/native';
 
@@ -29,8 +27,7 @@ const Tela1 = () => {
     console.log('Usuário:', username);
     console.log('Senha:', password);
 
-    setLoggedProfessor(username); // Armazena o nome do professor logado
-
+    setLoggedProfessor(username); 
     navigation.navigate('Tela2', { nomeProfessor: username });
   };
 

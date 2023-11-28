@@ -1,5 +1,3 @@
-// Tela1Styles.js
-
 import { StyleSheet } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 
